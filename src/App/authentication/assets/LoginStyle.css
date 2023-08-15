@@ -1,0 +1,212 @@
+.login-page {
+    margin-top: 2.5vh;
+    min-height: 97.5vh;
+
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: white;
+    text-align: center;
+    padding-top: 0px;
+    font-weight: 500;
+    /* background-image: url("./assets/background.jpg");*/
+
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -5%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+  
+
+.login-welcome  {
+    font-size: 50px;
+    margin: 0px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+    background-image: linear-gradient(to left, #008CBA, lightseagreen);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.login-welcome img{
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+
+
+.login-info{
+    display: inline-block;
+    margin: 10px;
+
+    width: 30vh;
+    background-color: whitesmoke;
+    text-align: right;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+/* box-shadow: 0px 0px 15px 0px black; */
+}
+
+.login-info label{
+    display:inline-block;
+    margin:0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.login-info h6{
+    margin: auto;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.login-info input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;    
+    box-sizing: border-box;
+    border: 1px solid gray;
+    font-family: Yekan;
+}
+
+.login-info input:focus {
+    outline: none !important;
+}
+
+.login-info #first-name-input{
+    text-align: right;
+}
+
+.login-info #last-name-input{
+    text-align: right;
+}
+
+.login-info .password{
+    display: flex;
+}
+
+.login-info .password input{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid gray;
+    border-right: none;
+}
+
+.login-info .age{
+    display: flex;
+    text-align: center;
+    justify-content: right;
+}
+
+.login-info .password button{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: 1px solid gray;
+    border-left: none;
+    background-color:white;
+}
+
+.login-info .confirm button:hover {
+    opacity: 80%;
+}
+
+.login-info #forget-pass{
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.login-info .confirm{
+    margin-top: 30px;
+}
+
+.login-info .confirm button{
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 25px;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: Yekan;
+}
+
+.login-info #sign-in-button{
+    background-color: #4CAF50;
+}
+
+.login-info #sign-up-button{
+    background-color: #008CBA;
+}
+
+.login-info #register-button{
+    background-color: #21b0bf;
+}
+
+.login-info #redirect-to-login-button{
+    background-color: #4CAF50;
+}
+
+.login-info #error-message{
+    font-family: Yekan;
+    margin: auto;
+}
+
+
+
+.login-page .footer p{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.login-page a{
+    text-decoration: none !important;
+    color: lightseagreen;
+    font-weight: bold;
+
+}
+
+.login-page span{
+    color: red;
+}
+
+.login-page .age{
+    margin-bottom: 10px;
+}
+
+.login-page .grade{
+    margin-bottom: 10px;
+}

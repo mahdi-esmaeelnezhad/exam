@@ -1,0 +1,197 @@
+
+------------------------------------
+Auth | GET | Auth_API_URL = "http://localhost:8000/api/auth";
+------------------------------------
+const data = {
+    "logged_in": bool,
+    "message": string,
+}
+
+
+------------------------------------
+Sign-In | POST | SIGN_IN_TO_ACCOUNT_API_URL = "http://localhost:8000/api/login/";
+------------------------------------
+const data = {
+    username: string,
+    password: string,
+}
+
+
+------------------------------------
+Sign-Up | POST | SIGN_UP_NEW_ACCOUNT_API_URL = "http://localhost:8000/api/register";
+------------------------------------
+const data = {
+    first_name: string,
+    last_name: string,
+    password: string,
+    email: string,
+    user_age: int,
+    username: string,
+}
+
+
+------------------------------------
+Privicy | GET | PRIVICY_API_URL = "http://localhost:8000/privicy/";
+------------------------------------
+const data = {
+    discription: string,
+}
+
+
+------------------------------------
+Security | GET | SECURITY_API_URL = "http://localhost:8000/security/";
+------------------------------------
+const data = {
+    discription: string,
+}
+
+
+------------------------------------
+ContactUS | GET | CONTACT_US_API_URL = "http://localhost:8000/contac-us/";
+------------------------------------
+const data = {
+    discription: string,
+}
+
+
+------------------------------------
+Profile | GET | PROFILE_API_URL = http://localhost:8000/api/profile";
+------------------------------------
+const data = {
+    "first_name": string,
+    "last_name": string,
+    "email": string,
+    "grade": int,
+}
+
+
+------------------------------------
+QUIZ_REPORT_BLANK_API_URL | GET | QUIZ_REPORT_BLANK_API_URL = http://localhost:8000/api/blank/quiz-report/;
+------------------------------------
+const data = {
+    "taken_quizzes": [
+        {
+            "quiz_name": string,
+            "quiz_difficalty": string,
+            "quiz_date": string,
+            "quiz_score": string,
+        },
+        {
+            ...
+        },
+    ]
+}
+
+------------------------------------
+QUIZ_REPORT_TEST_API_URL | GET | QUIZ_REPORT_TEST_API_URL = http://localhost:8000/api/test/quiz-report/;
+------------------------------------
+const data = {
+    "taken_quizzes": [
+        {
+            "quiz_name": string,
+            "quiz_difficalty": string,
+            "quiz_date": string,
+            "quiz_score": string,
+        },
+        {
+            ...
+        },
+    ]
+}
+
+
+------------------------------------
+QUIZ_GRAPH_TEST_API_URL | GET | QUIZ_GRAPH_TEST_API_URL = http://localhost:8000/api/quiz-graph/;
+------------------------------------
+const data = {
+        "taken_quizzes": [
+        {
+            "quiz_date": string,
+            "quiz_score": int,
+        },
+        {
+            ...
+        },
+    ]
+}
+
+
+------------------------------------
+QUIZ_GRAPH_BLANK_API_URL | GET | QUIZ_GRAPH_BLANK_API_URL = http://localhost:8000/api/quiz-graph/;
+------------------------------------
+const data = {
+        "taken_quizzes": [
+        {
+            "quiz_date": string,
+            "quiz_score": int,
+        },
+        {
+            ...
+        },
+    ]
+}
+
+
+------------------------------------
+Quiz | GET | QUESTIONS_API_URL = "http://localhost:8000/quiz";
+------------------------------------
+const test_data = {
+    "total_score": int,
+    "total_duration": int,
+    "questions":[
+        {
+            "question_number": int,
+            "question_id": int,
+            "question": string,
+            "options":{ int: string,
+                        int: string,
+                        int: string,
+                        int: string
+                        },
+            "score": int,
+            "question_answer": int,
+        },
+        {
+            ...
+        },
+    ]
+}
+
+
+const blank_data = {
+    "total_score": int,
+    "total_duration": int,
+    "questions":[
+        {
+            "question_number": int,
+            "question_id": int,
+            "question": string,
+            "score": int,
+            "question_answer": string,
+        },
+        {
+            ...
+        },
+    ]
+}
+
+
+------------------------------------
+Quiz | POST | SEND_REPLIES_API_URL = "http://localhost:8000/quiz";
+------------------------------------
+const data = {
+            "quiz_id": int,
+            "answers":[
+                {
+                    "question_number":int ,
+                    "question_taken_answer": int or string
+                },
+                {
+                    ...
+                }
+            ]
+        };
+
+
+
+

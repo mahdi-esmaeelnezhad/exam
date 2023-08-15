@@ -1,0 +1,175 @@
+{
+  "Privacy": {
+    "discription": "it is privacy from json"
+  },
+  "quiz": {
+    "total_score": "1",
+    "total_duration": 120,
+    "questions": [
+      {
+        "question_number": 1,
+        "question_id": 1,
+        "question": "Question Text-1",
+        "options": {
+          "1": "options-1",
+          "2": "options-2",
+          "3": "options-3",
+          "4": "options-4"
+        },
+        "score": 1,
+        "question_answer": 2
+      },
+      {
+        "question_number": 2,
+        "question_id": 2,
+        "question": "Question Text-2",
+        "options": {
+          "1": "string",
+          "2": "string",
+          "3": "string",
+          "4": "string"
+        },
+        "score": 1,
+        "question_answer": 1
+      },
+      {
+        "question_number": 3,
+        "question_id": 3,
+        "question": "Question Text-3",
+        "options": {
+          "1": "string",
+          "2": "string",
+          "3": "string",
+          "4": "string"
+        },
+        "score": 1,
+        "question_answer": 4
+      },
+      {
+        "question_number": 4,
+        "question_id": 4,
+        "question": "Question Text-4",
+        "options": {
+          "1": "string",
+          "2": "string",
+          "3": "string",
+          "4": "string"
+        },
+        "score": 1,
+        "question_answer": 3
+      }
+    ]
+  },
+  "quiz-fill": {
+    "total_score": "1",
+    "total_duration": 90,
+    "questions": [
+      {
+        "question_number": 1,
+        "question_id": 1,
+        "question": "string-1",
+        "score": 1,
+        "question_answer": "string"
+      },
+      {
+        "question_number": 2,
+        "question_id": 2,
+        "question": "string-2",
+        "score": 1,
+        "question_answer": "string"
+      },
+      {
+        "question_number": 3,
+        "question_id": 3,
+        "question": "string-3",
+        "score": 1,
+        "question_answer": "string"
+      }
+    ]
+  },
+  "Auth": [
+    {
+      "logged_in": "false",
+      "message": "string"
+    }
+  ],
+  "profile": {
+    "first_name": "اسم فرد",
+    "last_name": "فامیلی",
+    "email": "string@gmail.com",
+    "grade": "اول دبستان"
+  },
+  "taken_quizzes": [
+    {
+      "quiz_name": "Q1",
+      "quiz_difficalty": "sss",
+      "quiz_date": "1.1.1",
+      "quiz_score": 2000
+    },
+    {
+      "quiz_name": "Q4",
+      "quiz_difficalty": "sss",
+      "quiz_date": "1.1.1",
+      "quiz_score": 2000
+    }
+  ],
+  "taken_quizzes-fill": [
+    {
+      "quiz_name": "Q3",
+      "quiz_difficalty": "sff",
+      "quiz_date": "2.2.2",
+      "quiz_score": 2000
+    },
+    {
+      "quiz_name": "Q2",
+      "quiz_difficalty": "sff",
+      "quiz_date": "1.2.3",
+      "quiz_score": 1000
+    }
+  ],
+  "taken_quizzes-graph": [
+    {
+      "quiz_date": "string",
+      "quiz_score": "2"
+    },
+    {
+      "quiz_date": "string",
+      "quiz_score": "8"
+    },
+    {
+      "quiz_date": "string",
+      "quiz_score": "1  "
+    }
+  ],
+  "taken_quizzes-graph-fill": [
+    {
+      "quiz_date": "string",
+      "quiz_score": "8"
+    },
+    {
+      "quiz_date": "string",
+      "quiz_score": "4"
+    },
+    {
+      "quiz_date": "string",
+      "quiz_score": "4"
+    }
+  ],
+  "answer": {
+    "quiz_id": 1,
+    "answers": [
+      {
+        "question_id": 1,
+        "question_taken_answer": "string"
+      },
+      {
+        "question_id": 2,
+        "question_taken_answer": "string"
+      },
+      {
+        "question_id": 3,
+        "question_taken_answer": "string"
+      }
+    ]
+  }
+}

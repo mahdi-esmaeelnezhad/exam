@@ -1,0 +1,57 @@
+a:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: whitesmoke;
+}
+
+/* visited link */
+a:visited {
+  color: lightyellow;
+  text-decoration: none;
+
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: gray;
+  text-decoration: none;
+
+}
+
+body {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-image: linear-gradient(to left, #008CBA, lightseagreen);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: Yekan, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* --font-family: IRANYekan,sans-serif; */
+
+@font-face {
+  font-family: 'Yekan';
+  src: local('Yekan'), url(./fonts/YekanV3.0/Yekan.ttf) format('truetype');
+}
